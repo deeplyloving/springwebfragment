@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <groupId>test</groupId>
+  <artifactId>test.main</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <packaging>pom</packaging>
+
+  <name>test.main</name>
+  <url>http://maven.apache.org</url>
+
+  <properties>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+  </properties>
+
+  <dependencies>
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <version>3.8.1</version>
+      <scope>test</scope>
+    </dependency>
+  </dependencies>
+  <modules>
+    <module>test.service</module>
+    <module>test.serviceimpl</module>
+    <module>test.web</module>
+    <module>test.service1</module>
+    <module>test.service1impl</module>
+    <module>test.web1</module>
+    <module>test.web.all</module>
+    <module>test.resources</module>
+    <module>test.base.dao</module>
+    <module>test.model</module>
+    <module>test.commons</module>
+    <module>test.base.service</module>
+    <module>test.dao</module>
+    <module>test.dao.impl</module>
+    <module>test.dao1</module>
+    <module>test.dao1.impl</module>
+    <module>test.web.core</module>
+  </modules>
+</project>

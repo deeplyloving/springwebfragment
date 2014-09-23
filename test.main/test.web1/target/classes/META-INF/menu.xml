@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<menus>
+	<menu name="testweb1 index" url="/testweb1/index"/>
+	<menu name="testweb1 save" url="/testweb1/save"/>
+</menus>
